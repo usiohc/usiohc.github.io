@@ -79,21 +79,21 @@ content:
         quote: >
           '서울 실시간 도시 데이터' API를 통해 제공되는 실시간 인구, 날씨 데이터와 함께 맛집 정보, 뉴스 데이터를 종합한 대시보드 웹 사이트를 구현
         description: | # this will include new lines to allow paragraphs
-          - [Notion을 이용한 Action Item 티켓 관리](https://prgrms.notion.site/3-1-38b1c8aedfcf4f6ba57a908ce90af24d?pvs=4)
-          - [Github 브랜치 전략 수립](https://prgrms.notion.site/Git-Branch-CI-CD-67b8ac8fa8364d2d8140b30506af4ce7?pvs=4)
+          - [Notion을 이용한 Action Item 티켓 관리](https://prgrms.notion.site/3-1-38b1c8aedfcf4f6ba57a908ce90af24d?pvs=4){:target="_blank"}
+          - [Github 브랜치 전략 수립](https://prgrms.notion.site/Git-Branch-CI-CD-67b8ac8fa8364d2d8140b30506af4ce7?pvs=4){:target="_blank"}
             - 브랜치 전략에 따른 CI/CD를 Github Actions 을 이용해 구현
-          - [Elastic Beanstalk](https://prgrms.notion.site/Infra-Elastic-Beanstalk-2de7b4a282494a6fbc64c529916d6450?pvs=4) / 
-          [Github Actions](https://prgrms.notion.site/Infra-CD-Django-4697db02ae67415995013ce429b70a48?pvs=4) 을 이용한 Django 무중단 배포
-          - [MWAA, S3](https://prgrms.notion.site/Infra-MWAA-CD-IdP-d8d2c4a41e2748509cbe4a091825d010?pvs=4) / 
-          [Github Actions](https://prgrms.notion.site/Infra-CD-MWAA-Dags-66c2a690c9ae410d80abc599dce744dc?pvs=4) 을 이용한 DAG, requirements 배포
-          - [Django 해당 장소별 뉴스 출력](https://prgrms.notion.site/Web-Django-FE-BE-ef5390c80ed645729a0d5cea20db6c48?pvs=4)
-            - [MWAA를 이용한 네이버 검색 API로 뉴스 데이터를 ETL](https://prgrms.notion.site/Airflow-aa867b3715794bb5902d9c271e80ebb0?pvs=4)
-            - [crontab을 사용해 S3의 데이터 가져오기](https://prgrms.notion.site/Infra-S3-news-data-to-Elastic-Beanstalk-e70b7314b01843e79ecd63c7bf21b1c5?pvs=4)
+          - [Elastic Beanstalk](https://prgrms.notion.site/Infra-Elastic-Beanstalk-2de7b4a282494a6fbc64c529916d6450?pvs=4){:target="_blank"} / 
+          [Github Actions](https://prgrms.notion.site/Infra-CD-Django-4697db02ae67415995013ce429b70a48?pvs=4){:target="_blank"} 을 이용한 Django 무중단 배포
+          - [MWAA, S3](https://prgrms.notion.site/Infra-MWAA-CD-IdP-d8d2c4a41e2748509cbe4a091825d010?pvs=4){:target="_blank"} / 
+          [Github Actions](https://prgrms.notion.site/Infra-CD-MWAA-Dags-66c2a690c9ae410d80abc599dce744dc?pvs=4){:target="_blank"} 을 이용한 DAG, requirements 배포
+          - [Django 해당 장소별 뉴스 출력](https://prgrms.notion.site/Web-Django-FE-BE-ef5390c80ed645729a0d5cea20db6c48?pvs=4){:target="_blank"}
+            - [MWAA를 이용한 네이버 검색 API로 뉴스 데이터를 ETL](https://prgrms.notion.site/Airflow-aa867b3715794bb5902d9c271e80ebb0?pvs=4){:target="_blank"}
+            - [crontab을 사용해 S3의 데이터 가져오기](https://prgrms.notion.site/Infra-S3-news-data-to-Elastic-Beanstalk-e70b7314b01843e79ecd63c7bf21b1c5?pvs=4){:target="_blank"}
           
 
       - layout: left
-        title: 
-        sub_title: 유기동물 조회 API를 이용한 보호소 및 계류상태 분석 대시보드
+        title: 유기동물 대시보드
+        sub_title: 유기동물 조회 API를 이용한 보호소와 계류상태 분석 및 공고 대시보드
         caption: 1차 2023.05.29 ~ 2023.06.02 <br> 2차 2023.06.26 ~ 2023.06.30
         link: https://usiohc.notion.site/c8d9499fb79a4b0eb61bc7116590b215?pvs=4
         link_text: Notion
@@ -104,24 +104,24 @@ content:
         quote: >
           '유기동물 조회' API를 통해 한눈에 보기 쉬운 분석 대시보드 및 유기동물 공고 웹 사이트를 구현
         description: |
-          1차와 2차로 니뉘어 프로젝트를 진행<br>
-          [1차: 빠르게 MVP 달성을 목표](https://usiohc.tistory.com/50)
+          1차와 2차로 나뉘어 프로젝트를 진행<br>
+          [1차: 빠르게 MVP 달성을 목표](https://usiohc.tistory.com/50){:target="_blank"}
           - 유기동물 데이터를 1일 ~ 1달 전까지의 데이터를 ETL 하는 python 스크립트 Ubuntu 서버에서 crontab
-            - 해당 스크립트를 ServerLess 아키텍처로 구현하기 위해 [Cloud Function](https://usiohc.tistory.com/52) | 
-            [Cloud Scheduler](https://usiohc.tistory.com/55) 로 고도화
+            - 해당 스크립트를 ServerLess 아키텍처로 구현하기 위해 [Cloud Function](https://usiohc.tistory.com/52){:target="_blank"} | 
+            [Cloud Scheduler](https://usiohc.tistory.com/55){:target="_blank"} 로 고도화
           - 대시보드 작성을 위한 데이터 웨어하우스(BigQuery)에 Analytics 테이블 작성 (예약된 쿼리 사용)
           - 데이터 탐색과 인사이트 도출을 위해 Superset을 사용, 내부 대시보드의 시각화 차트 작성
           - 프로덕션 웹에서 서비스할 대시보드를 chart.js 라이브러리를 사용해 시각화 차트 작성
 
           
-          [2차: 고도화](https://usiohc.tistory.com/71)
-          - [Notion을 이용한 Action Item 티켓 관리](https://prgrms.notion.site/3-1-ef5bd277f9944482a372b2353fc44247?pvs=4)
-          - [Ubuntu에서 Docker Compose를 사용해 Airflow 환경 구축](https://prgrms.notion.site/Airflow-API-to-dag-05fb46d32e9d4b7bb3bc373fdfa0367d?pvs=4)
-            - Cloud Function을 이용해 데이터 ETL을 수행하던 것을 [Airflow Dag로 작성](https://prgrms.notion.site/Airflow-DAG_Daily_OpenAPI_30days-f27b71b92dd94046b3579426a9c01b87?pvs=4)
-              - 해당 [DAG를 비동기로 고도화](https://prgrms.notion.site/Airflow-DAG_Daily_OpenAPI_30days-3977073fc8914a02bc2ccb556ecdddbf?pvs=4)
-            - [당일 데이터를 ETL 하는 DAG 추가](https://prgrms.notion.site/Airflow-DAG_Quarter_OpenAPI_today-30d83d38eb0c4eb2874a882e0bce3e1c?pvs=4)
-          - [Log 관리 및 GCS로 적재](https://prgrms.notion.site/Airflow-LOG_-b1af5ac4c8c34742a34f3ca0e6fd3a93?pvs=4)
-            - Ubuntu에 적재되는 [Log, Data를 삭제하는 Dag 추가](https://prgrms.notion.site/Airflow-DAG_Clean_log-data-ce21008004ad4aa9aabded0a3190a529?pvs=4)
+          [2차: 고도화](https://usiohc.tistory.com/71){:target="_blank"}
+          - [Notion을 이용한 Action Item 티켓 관리](https://prgrms.notion.site/3-1-ef5bd277f9944482a372b2353fc44247?pvs=4){:target="_blank"}
+          - [Ubuntu에서 Docker Compose를 사용해 Airflow 환경 구축](https://prgrms.notion.site/Airflow-API-to-dag-05fb46d32e9d4b7bb3bc373fdfa0367d?pvs=4){:target="_blank"}
+            - Cloud Function을 이용해 데이터 ETL을 수행하던 것을 [Airflow Dag로 작성](https://prgrms.notion.site/Airflow-DAG_Daily_OpenAPI_30days-f27b71b92dd94046b3579426a9c01b87?pvs=4){:target="_blank"}
+              - 해당 [DAG를 비동기로 고도화](https://prgrms.notion.site/Airflow-DAG_Daily_OpenAPI_30days-3977073fc8914a02bc2ccb556ecdddbf?pvs=4){:target="_blank"}
+            - [당일 데이터를 ETL 하는 DAG 추가](https://prgrms.notion.site/Airflow-DAG_Quarter_OpenAPI_today-30d83d38eb0c4eb2874a882e0bce3e1c?pvs=4){:target="_blank"}
+          - [Log 관리 및 GCS로 적재](https://prgrms.notion.site/Airflow-LOG_-b1af5ac4c8c34742a34f3ca0e6fd3a93?pvs=4){:target="_blank"}
+            - Ubuntu에 적재되는 [Log, Data를 삭제하는 Dag 추가](https://prgrms.notion.site/Airflow-DAG_Clean_log-data-ce21008004ad4aa9aabded0a3190a529?pvs=4){:target="_blank"}
 
       - layout: left
         title: 말달리자
@@ -134,10 +134,12 @@ content:
             icon: fab fa-github
             url: github.com/Inhatc-Bigdata-Project/RacingClassificationModel
         quote: >
-          한국마사회에서 제공하는 데이터를 크롤링해 3등 이내로 들어온 말을 예측하는 모델을 생성
+          한국마사회에서 제공하는 서울경마 데이터를 크롤링해 3등 이내로 들어온 말을 예측하는 모델을 생성
         description: |
-
-
+          - [서울경마](https://race.kra.co.kr/seoulMain.do){:target="_blank"}의 경주성적 / 경주마정보 / 기수정보 데이터를 BeautifulSoup와 Selenium을 이용해 크롤링
+          - 데이터 결측치 처리, 정규화, mean encoding 등 전처리 진행
+          - 분석과 모델링 팀원이 요청한 데이터 시각화
+            - feature Heatmap, feature importance, 범주형 변수 분포, 수치형 변수 분포 등
   - title: 수상 # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -153,6 +155,7 @@ content:
           
         description: | 
           - <b>머신러닝 분류분석을 이용한 경마 예측</b> 프로젝트로 참가
+          - 데이터 크롤링 / 전처리 를 맡았고, 시각화와 모델링을 맡은 팀원과 협업
           - 해당 프로젝트로 공모전을 참여하면서 데이터 엔지니어링에 대한 관심을 가지게 되는 계기가 되었음
 
       - layout: left
@@ -166,10 +169,10 @@ content:
         # quote: >
           
         description: | 
-          - 2021년도 코로나로 인해 사람간의 접촉을 지양하는 문화가 발생하면서 비대면으로 신체측정할 수 있는 방법을 고민하게 되었습니다.
-          - 공익성과 수익성을 모두 고려하고자 했으며, 저렴한 카메라인 Kinect를 찾을 수 있었고 남성들의 군복무를 위해 진행하는 신체측정을 대상으로 프로젝트를 진행하게 되었습니다.
+          - 2021년도 코로나로 인해 사람간의 접촉을 지양하는 문화가 발생하면서 비대면으로 신체측정할 수 있는 방법을 고민
+          - 공익성과 수익성을 모두 고려하고자 했으며, 저렴한 카메라인 Kinect를 찾을 수 있었고 남성들의 군복무를 위해 진행하는 신체측정을 대상으로 프로젝트를 진행
           - Kinect를 사용해 실시간으로 사람의 신체를 인식하고, 인식된 신체를 통해 BMI를 측정하는 애플리케이션 개발
-          - 해당 프로젝트를 통해 학술논문을 작성했고 좋은 평가를 받을 수 있었습니다.
+          - 해당 프로젝트를 통해 학술논문을 작성했고 좋은 평가받았음
 
 
   - title: 교육 # Title for the section
@@ -189,6 +192,18 @@ content:
             - github history, notion, slack, Blog 등을 통해 기록을 남기고자 함
 
       - layout: left
+        title: 인하공업전문대학
+        sub_title: 컴퓨터 정보
+        caption: 2018.03 ~ 2023.02
+        # quote: >
+          
+        description: | 
+          - 관심, 흥미가 생기는 것을 찾기 위해 다양한 분야를 수강
+          - [Android, ML, Server, Hadoop, C# .NET, Go, IoT 등을 학습](https://usiohc.notion.site/5d8b04ccd7d04823b03217a1a4fa396a?v=274a6e30b60e4c61b6e195f2a681d1e4&pvs=4){:target="_blank"}
+          - 졸업학기에 ML 수업을 수강하면서 프로젝트를 진행하면서 데이터 수집, 전처리에 관심을 가지게 됨
+          - <del>대학 전산실에 2년간 근로를 하면서 하드웨어, 네트워크, 서버 설치와 유지보수도 경험해봤음</del>
+
+      - layout: left
         title: 학점은행제
         sub_title: 컴퓨터 공학사
         caption: 2023.01 ~ 2023.04
@@ -197,17 +212,6 @@ content:
         description: | 
           - 학사 학위 취득을 위해 CS 기초 수강
 
-      - layout: left
-        title: 인하공업전문대학
-        sub_title: 컴퓨터 정보
-        caption: 2018.03 ~ 2023.02
-        # quote: >
-          
-        description: | 
-          - 관심, 흥미가 생기는 것을 찾기 위해 다양한 분야를 수강
-          - Android, ML, Server, Hadoop, C# .NET, Go, IoT 등을 학습
-          - 졸업학기에 ML 수업을 수강하면서 프로젝트를 진행하면서 데이터 수집, 전처리에 관심을 가지게 됨
-          - <del>대학 전산실에 2년간 근로를 하면서 하드웨어, 네트워크, 서버 설치와 유지보수도 경험해봤음</del>
 
   - title: 자격증
     layout: list
@@ -220,13 +224,13 @@ content:
   - title: Etc
     layout: text
     content: | # this will include new lines to allow paragraphs
-      About me
+      <b>About me</b>
       - Best Practice를 고민하며 개발하는 것을 좋아합니다.
       - 원인을 파악하고 troubleshooting하는것을 좋아합니다.
       - 약속한 기간은 반드시 지키려고 노력합니다.
       
       <br><br>
-      개발외의 취미
+      <b>개발외의 취미</b>
       - 운동 (풋살, 웨이트)
       - 음악 (약 5년간의 기타 세션)
       - 패션 쇼핑 (무신사 Lv6을 달성)
