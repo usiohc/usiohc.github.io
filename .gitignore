@@ -4,3 +4,21 @@
 _site
 Gemfile.lock
 *.code-workspace
+
+# Local config
+_includes
+_layouts
+_sass
+_site
+_test
+assets/js
+assets/favicon.ico
+lib
+.dockerignore
+app.json
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+docker-compose.yml
+Gemfile.lock
+modern-resume-theme.gemspec
+Procfile
