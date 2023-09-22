@@ -106,7 +106,7 @@ content:
         description: |
           1차와 2차로 나뉘어 프로젝트를 진행<br>
           [1차: 빠르게 MVP 달성을 목표](https://usiohc.tistory.com/50){:target="_blank"}
-          - 유기동물 데이터를 1일 ~ 1달 전까지의 데이터를 ETL 하는 python 스크립트 Ubuntu 서버에서 crontab
+          - 유기동물 데이터를 1일 ~ 1달 전까지의 데이터를 ETL 하는 python 스크립트 작성 및 Ubuntu 서버에서 crontab
             - 해당 스크립트를 ServerLess 아키텍처로 구현하기 위해 [Cloud Function](https://usiohc.tistory.com/52){:target="_blank"} | 
             [Cloud Scheduler](https://usiohc.tistory.com/55){:target="_blank"} 로 고도화
           - 대시보드 작성을 위한 데이터 웨어하우스(BigQuery)에 Analytics 테이블 작성 (예약된 쿼리 사용)
