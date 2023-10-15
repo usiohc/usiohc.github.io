@@ -11,6 +11,8 @@ title: 0년차 데이터 엔지니어
 email: asltn99@gmail.com
 website: https://usiohc.tistory.com/
 website_title: Tistory
+website2: 
+website2_title: Portfolio
 
 # Dark Mode (true/false/never)
 darkmode: ture
@@ -71,7 +73,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 # Projects Section
 content:
-  - title: Projects # Title for the section
+  - title: <a href="https://usiohc.notion.site/5d8b04ccd7d04823b03217a1a4fa396a?v=274a6e30b60e4c61b6e195f2a681d1e4&pvs=4" target='_blank'>Projects</a> # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
