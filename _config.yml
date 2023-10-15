@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 최민수
-title: 주니어 데이터 엔지니어
+title: 0년차 데이터 엔지니어
 email: asltn99@gmail.com
 website: https://usiohc.tistory.com/
 website_title: Tistory
@@ -59,7 +59,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   데이터 엔지니어가 되기 위해 데이터 엔지니어링 데브코스를 수강하면서 데이터 기반 의사결정을 돕기 위한 데이터를 제공하는 파이프라인을 개발하고 데이터 레이크 및 데이터 웨어하우스를 운영하는 역할을 수행하며 대시보드 제작과 분석에 참여 등의 경험을 쌓았습니다. 
   
-  데이터 엔지니어의 성장에는 자신이 맡은 바에 최선을 다하는 **책임감**과 **문제해결**을 위한 끈기가 필요하다고 생각합니다. 
+  개발자의 성장에는 자신이 맡은 바에 최선을 다하는 **책임감**과 **문제해결**을 위한 끈기가 필요하다고 생각합니다. 
   팀의 구성원으로써 신뢰할 수 있는 데이터 엔지니어로 성장하고 싶습니다.
   
 
@@ -166,6 +166,9 @@ content:
           - 데이터 결측치 처리, 정규화, mean encoding 등 전처리 진행
           - 분석과 모델링 팀원이 요청한 데이터 시각화
             - feature Heatmap, feature importance, 범주형 변수 분포, 수치형 변수 분포 등
+
+
+            
   - title: 수상 # Title for the section
     layout: list # Type of content section (list/text)
     content:
