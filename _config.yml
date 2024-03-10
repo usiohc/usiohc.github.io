@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 최민수
-title: 0년차 백엔드 엔지니어
+title: 0년차 백엔드 개발자
 email: asltn99@gmail.com
 website: https://usiohc.tistory.com/
 website_title: Tistory
@@ -61,15 +61,15 @@ about_content: | # this will include new lines to allow paragraphs
 
   데이터 엔지니어가 되기 위해 데이터 엔지니어링 데브코스를 수강하면서 데이터 기반 의사결정을 돕기 위한 데이터를 제공하는 파이프라인을 개발하고 데이터 레이크 및 데이터 웨어하우스를 운영하는 역할을 수행하며 대시보드 제작과 분석에 참여 등의 경험을 쌓았습니다. 
   
-  개발자의 성장에는 자신이 맡은 바에 최선을 다하는 **책임감**과 **문제해결**을 위한 끈기가 필요하다고 생각합니다. 
-  팀의 구성원으로써 신뢰할 수 있는 백엔드 엔지니어가 되고자 하고, 미래에는 DE · DevOps 로 성장하고 싶습니다.
+  개발자의 성장에는 자신이 맡은 바에 최선을 다하는 **책임감**과 협업을 위한 **소통능력**이 필요하다고 생각합니다. 
+  팀의 구성원으로써 신뢰할 수 있는 백엔드 엔지니어가 되고자 하고, 미래에는 BE · DE 로 성장하고 싶습니다.
   
 
-  Skills: <mark>Python</mark> <mark>SQL</mark> <mark>Django</mark> <mark>Oracle</mark> <br>
+  Skills: <mark>Python</mark> <mark>SQL</mark> | <mark>Django</mark> <mark>fastapi</mark> | <mark>Mysql</mark> <mark>Postgresql</mark> | <mark>Svelte</mark> <br>
   Data: <mark>Airflow</mark> <mark>Pandas</mark> <mark>Superset</mark> <br>
   Clouds: <mark>AWS</mark> <mark>GCP</mark> <br>
   Tools: <mark>Slack</mark> <mark>Notion</mark> <mark>Docker</mark> <br>
-
+  IDE : <mark>Pycharm</mark> <mark>VSCode</mark> <br>
 
 # Projects Section
 content:
@@ -77,9 +77,33 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 서울 번화가 대시보드
+        title: 칵테일 빌더
         sub_title: |
           <a href="https://usiohc.notion.site/1484001261d94e319d7afeff1be982b6?pvs=4" target='_blank' style="color: #477dca; font-weight: 500;">포트폴리오 링크</a> <br>
+          <a href="https://github.com/usiohc/alcohol-blackout" target='_blank' style="color: #477dca; font-weight: 500;">프로젝트 Github 링크</a> <br>
+          <a href="https://acbo.site/" target='_blank' style="color: #477dca; font-weight: 500;">Web 링크</a>
+        caption: 2024.01.01 ~ 진행중
+        quote: >
+          기주와 재료를 선택해 제조할 수 있는 칵테일 레시피를 제공하는 웹
+        description: | # this will include new lines to allow paragraphs
+          기존의 칵테일 빌더 기능을 제공하는 사이트는 기주별 레시피를 제공했으나, 향상된 UI/UX와 여러 개의 기주, 재료를 선택하는 레시피를 제공 <br>
+          - 데이터 모델 설계 및 Alembic 을 사용해 DB 버전 관리
+          - SQLAlchemy + Fastapi 를 사용해 REST API 구현
+            - 칵테일 검색, 요청, 레시피 기능 구현
+            - 유저
+              - 회원가입, 로그인, 이메일 인증, 닉네임 변경, 패스워드 변경, 회원탈퇴, 칵테일 북마크 기능 구현
+          - Svelte + Vite + Bootstrap, svelte-spa-router 라이브러리를 사용해 SPA 작성 및 빌드
+          - GCE에 배포 및 운영
+            - docker compose를 사용해 3 Tier 아키텍처로 구현
+            - Cloud DNS와 Cloud LB를 사용해 도메인과 SSL을 적용
+          <br>
+          <br>
+
+          ___
+      - layout: left
+        title: 서울 번화가 대시보드
+        sub_title: |
+          <a href="https://usiohc.notion.site/846362357b6940c4a889ff5945192c41?pvs=4" target='_blank' style="color: #477dca; font-weight: 500;">포트폴리오 링크</a> <br>
           <a href="https://github.com/data-dev-course/project4-team1" target='_blank' style="color: #477dca; font-weight: 500;">프로젝트 Github 링크</a>
         caption: 2023.08.07 ~ 2023.09.01
         # link: https://usiohc.notion.site/e7e5987fab83433ca262527574f237e3?pvs=4
@@ -112,6 +136,7 @@ content:
         sub_title: | 
           <a href="https://usiohc.notion.site/bfb095c92ab342d7a8a109f0c31385c9?pvs=4" target='_blank' style="color: #477dca; font-weight: 500;">포트폴리오 링크</a> <br>
           <a href="https://github.com/data-dev-course/project2-team1" target='_blank' style="color: #477dca; font-weight: 500;">프로젝트 Github 링크</a>
+          <a href="https://strayanimal.web.app/" target='_blank' style="color: #477dca; font-weight: 500;">Web 링크</a>
         # sub_title: 유기동물 조회 API를 이용한 보호소와 계류상태 분석 및 공고 대시보드
         caption: 1차 2023.05.29 ~ 2023.06.02 <br> 2차 2023.06.26 ~ 2023.06.30
         # link: https://usiohc.notion.site/c8d9499fb79a4b0eb61bc7116590b215?pvs=4
@@ -123,7 +148,7 @@ content:
         quote: >
           다양한 시각의 유기동물 현황 대시보드 및 최신 유기동물 공고 리스트를 제공하는 웹
         description: |
-          반려동물을 키우는 인구가 증가하면서 유기되는 동물(개, 고양이)도 계속해서 증가되는 사회문제를 해결해보고자 함 <br>
+          반려동물을 키우는 인구가 증가하면서 유기동물(개, 고양이)이 계속해서 증가되는 사회문제를 해결해보고자 통계 대시보드와 유기동물 공고를 제공 <br>
           
           <small>1차와 2차로 나뉘어 프로젝트를 진행</small><br>
           [1차: 빠르게 MVP 달성을 목표](https://usiohc.tistory.com/50){:target="_blank"}
@@ -258,12 +283,11 @@ content:
       - Best Practice를 고민하며 개발하는 것을 좋아합니다.
       - 원인을 파악하고 troubleshooting하는것을 좋아합니다.
       - 약속한 기간은 반드시 지키려고 노력합니다.
+      <br>
       
-      <br><br>
-      <b>개발외의 취미</b>
-      - 운동 (풋살, 웨이트)
-      - 음악 (약 5년간의 기타 세션)
-      - 패션 쇼핑 (무신사 Lv6을 달성)
+      <b>Fun Things</b>
+      - 커피와 맥주를 좋아합니다
+      - 음악과 패션을 좋아합니다
 
 # Footer
 footer_show_references: true
